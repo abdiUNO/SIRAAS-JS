@@ -1,0 +1,11 @@
+{
+
+  "presets": [
+    "preact-cli/babel"
+  ],
+  "plugins": [
+    ["styled-jsx/babel", { "optimizeForSpeed": true }],
+    ["transform-react-jsx", { "pragma": "h" }],
+    "babel-plugin-styled-components"
+  ]
+}
